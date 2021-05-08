@@ -3,25 +3,56 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		102419D926433FD000DCFD6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102419D826433FD000DCFD6F /* AppDelegate.swift */; };
-		102419DB26433FD000DCFD6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102419DA26433FD000DCFD6F /* ContentView.swift */; };
+		102419DB26433FD000DCFD6F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102419DA26433FD000DCFD6F /* MainView.swift */; };
 		102419DD26433FD000DCFD6F /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 102419DC26433FD000DCFD6F /* Experience.rcproject */; };
 		102419DF26433FD400DCFD6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 102419DE26433FD400DCFD6F /* Assets.xcassets */; };
 		102419E226433FD400DCFD6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 102419E126433FD400DCFD6F /* Preview Assets.xcassets */; };
+		10339F54264350BF00A84D5E /* model1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 10339F53264350BF00A84D5E /* model1.usdz */; };
+		10E5D19C2646CB520062C6AA /* flower_tulip.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 10E5D1952646CB4F0062C6AA /* flower_tulip.usdz */; };
+		10E5D19D2646CB520062C6AA /* gramophone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 10E5D1962646CB500062C6AA /* gramophone.usdz */; };
+		10E5D19E2646CB520062C6AA /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 10E5D1972646CB500062C6AA /* tv_retro.usdz */; };
+		10E5D19F2646CB520062C6AA /* toy_robot_vintage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 10E5D1982646CB510062C6AA /* toy_robot_vintage.usdz */; };
+		10E5D1A02646CB520062C6AA /* chair_swan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 10E5D1992646CB510062C6AA /* chair_swan.usdz */; };
+		10E5D1A12646CB520062C6AA /* fender_stratocaster.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 10E5D19A2646CB510062C6AA /* fender_stratocaster.usdz */; };
+		10E5D1A22646CB520062C6AA /* wateringcan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 10E5D19B2646CB520062C6AA /* wateringcan.usdz */; };
+		10E5D1A42646CDF70062C6AA /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E5D1A32646CDF70062C6AA /* ControlView.swift */; };
+		10E5D1A62646CF150062C6AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10E5D1A52646CF150062C6AA /* LaunchScreen.storyboard */; };
+		10E5D1A82646D4F40062C6AA /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E5D1A72646D4F40062C6AA /* BrowseView.swift */; };
+		10E5D1AB2646D8360062C6AA /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E5D1AA2646D8360062C6AA /* Model.swift */; };
+		10E5D1AD2646E2FC0062C6AA /* PlacementSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E5D1AC2646E2FC0062C6AA /* PlacementSettings.swift */; };
+		10E5D1AF2646E45F0062C6AA /* PlacementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E5D1AE2646E45F0062C6AA /* PlacementView.swift */; };
+		10E5D1B22646E6E80062C6AA /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 10E5D1B12646E6E80062C6AA /* FocusEntity */; };
+		10E5D1B42646E6FB0062C6AA /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E5D1B32646E6FB0062C6AA /* CustomARView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		102419D526433FD000DCFD6F /* SwiftUIArkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIArkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		102419D826433FD000DCFD6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		102419DA26433FD000DCFD6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		102419DA26433FD000DCFD6F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		102419DC26433FD000DCFD6F /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		102419DE26433FD400DCFD6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		102419E126433FD400DCFD6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		102419E326433FD400DCFD6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10339F53264350BF00A84D5E /* model1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = model1.usdz; sourceTree = "<group>"; };
+		10E5D1952646CB4F0062C6AA /* flower_tulip.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = flower_tulip.usdz; sourceTree = "<group>"; };
+		10E5D1962646CB500062C6AA /* gramophone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = gramophone.usdz; sourceTree = "<group>"; };
+		10E5D1972646CB500062C6AA /* tv_retro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tv_retro.usdz; sourceTree = "<group>"; };
+		10E5D1982646CB510062C6AA /* toy_robot_vintage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_robot_vintage.usdz; sourceTree = "<group>"; };
+		10E5D1992646CB510062C6AA /* chair_swan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair_swan.usdz; sourceTree = "<group>"; };
+		10E5D19A2646CB510062C6AA /* fender_stratocaster.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = fender_stratocaster.usdz; sourceTree = "<group>"; };
+		10E5D19B2646CB520062C6AA /* wateringcan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = wateringcan.usdz; sourceTree = "<group>"; };
+		10E5D1A32646CDF70062C6AA /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		10E5D1A52646CF150062C6AA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10E5D1A72646D4F40062C6AA /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		10E5D1AA2646D8360062C6AA /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		10E5D1AC2646E2FC0062C6AA /* PlacementSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementSettings.swift; sourceTree = "<group>"; };
+		10E5D1AE2646E45F0062C6AA /* PlacementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementView.swift; sourceTree = "<group>"; };
+		10E5D1B32646E6FB0062C6AA /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10E5D1B22646E6E80062C6AA /* FocusEntity in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,12 +86,14 @@
 		102419D726433FD000DCFD6F /* SwiftUIArkit */ = {
 			isa = PBXGroup;
 			children = (
+				10E5D1A92646D6CC0062C6AA /* Views */,
+				10E5D1942646CB280062C6AA /* Models */,
 				102419D826433FD000DCFD6F /* AppDelegate.swift */,
-				102419DA26433FD000DCFD6F /* ContentView.swift */,
-				102419DC26433FD000DCFD6F /* Experience.rcproject */,
 				102419DE26433FD400DCFD6F /* Assets.xcassets */,
 				102419E326433FD400DCFD6F /* Info.plist */,
 				102419E026433FD400DCFD6F /* Preview Content */,
+				10E5D1A52646CF150062C6AA /* LaunchScreen.storyboard */,
+				10E5D1AC2646E2FC0062C6AA /* PlacementSettings.swift */,
 			);
 			path = SwiftUIArkit;
 			sourceTree = "<group>";
@@ -70,6 +104,35 @@
 				102419E126433FD400DCFD6F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		10E5D1942646CB280062C6AA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				10339F53264350BF00A84D5E /* model1.usdz */,
+				10E5D1992646CB510062C6AA /* chair_swan.usdz */,
+				10E5D19A2646CB510062C6AA /* fender_stratocaster.usdz */,
+				10E5D1952646CB4F0062C6AA /* flower_tulip.usdz */,
+				10E5D1962646CB500062C6AA /* gramophone.usdz */,
+				10E5D1982646CB510062C6AA /* toy_robot_vintage.usdz */,
+				10E5D1972646CB500062C6AA /* tv_retro.usdz */,
+				10E5D19B2646CB520062C6AA /* wateringcan.usdz */,
+				102419DC26433FD000DCFD6F /* Experience.rcproject */,
+				10E5D1AA2646D8360062C6AA /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		10E5D1A92646D6CC0062C6AA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				102419DA26433FD000DCFD6F /* MainView.swift */,
+				10E5D1A32646CDF70062C6AA /* ControlView.swift */,
+				10E5D1A72646D4F40062C6AA /* BrowseView.swift */,
+				10E5D1AE2646E45F0062C6AA /* PlacementView.swift */,
+				10E5D1B32646E6FB0062C6AA /* CustomARView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -88,6 +151,9 @@
 			dependencies = (
 			);
 			name = SwiftUIArkit;
+			packageProductDependencies = (
+				10E5D1B12646E6E80062C6AA /* FocusEntity */,
+			);
 			productName = SwiftUIArkit;
 			productReference = 102419D526433FD000DCFD6F /* SwiftUIArkit.app */;
 			productType = "com.apple.product-type.application";
@@ -115,6 +181,9 @@
 				Base,
 			);
 			mainGroup = 102419CC26433FD000DCFD6F;
+			packageReferences = (
+				10E5D1B02646E6E80062C6AA /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
 			productRefGroup = 102419D626433FD000DCFD6F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,8 +198,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10E5D19E2646CB520062C6AA /* tv_retro.usdz in Resources */,
 				102419E226433FD400DCFD6F /* Preview Assets.xcassets in Resources */,
+				10E5D1A12646CB520062C6AA /* fender_stratocaster.usdz in Resources */,
+				10E5D1A02646CB520062C6AA /* chair_swan.usdz in Resources */,
+				10E5D19C2646CB520062C6AA /* flower_tulip.usdz in Resources */,
 				102419DF26433FD400DCFD6F /* Assets.xcassets in Resources */,
+				10339F54264350BF00A84D5E /* model1.usdz in Resources */,
+				10E5D19D2646CB520062C6AA /* gramophone.usdz in Resources */,
+				10E5D19F2646CB520062C6AA /* toy_robot_vintage.usdz in Resources */,
+				10E5D1A62646CF150062C6AA /* LaunchScreen.storyboard in Resources */,
+				10E5D1A22646CB520062C6AA /* wateringcan.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +219,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				102419DB26433FD000DCFD6F /* ContentView.swift in Sources */,
+				10E5D1A42646CDF70062C6AA /* ControlView.swift in Sources */,
+				10E5D1AD2646E2FC0062C6AA /* PlacementSettings.swift in Sources */,
+				10E5D1AF2646E45F0062C6AA /* PlacementView.swift in Sources */,
+				102419DB26433FD000DCFD6F /* MainView.swift in Sources */,
+				10E5D1B42646E6FB0062C6AA /* CustomARView.swift in Sources */,
+				10E5D1A82646D4F40062C6AA /* BrowseView.swift in Sources */,
+				10E5D1AB2646D8360062C6AA /* Model.swift in Sources */,
 				102419D926433FD000DCFD6F /* AppDelegate.swift in Sources */,
 				102419DD26433FD000DCFD6F /* Experience.rcproject in Sources */,
 			);
@@ -276,6 +360,7 @@
 				DEVELOPMENT_TEAM = C4BB468227;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUIArkit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,6 +382,7 @@
 				DEVELOPMENT_TEAM = C4BB468227;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUIArkit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,6 +416,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		10E5D1B02646E6E80062C6AA /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		10E5D1B12646E6E80062C6AA /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 10E5D1B02646E6E80062C6AA /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 102419CD26433FD000DCFD6F /* Project object */;
 }
