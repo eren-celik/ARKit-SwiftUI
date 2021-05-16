@@ -9,7 +9,7 @@ import SwiftUI
 import RealityKit
 import Combine
 
-class PlaceMentSetting : ObservableObject{
+class PlacementSettings : ObservableObject{
     
     @Published var selectedModel : Model?{
         willSet(newValue){

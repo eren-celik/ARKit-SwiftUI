@@ -12,14 +12,16 @@ import SwiftUI
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
-    @StateObject var placementSettings = PlaceMentSetting()
+    @StateObject var placementSettings = PlacementSettings()
+    @StateObject var sessionSettings = SessionSettings()
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
         // Create the SwiftUI view that provides the window contents.
-        let contentView = MainView().environmentObject(placementSettings)
+        let contentView = MainView()
+            .environmentObject(placementSettings)
+            .environmentObject(sessionSettings)
 
-        // Use a UIHostingController as window root view controller.
         let window = UIWindow(frame: UIScreen.main.bounds)
         window.rootViewController = UIHostingController(rootView: contentView)
         self.window = window

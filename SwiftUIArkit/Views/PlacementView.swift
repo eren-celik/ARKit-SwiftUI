@@ -9,7 +9,7 @@ import SwiftUI
 
 
 struct PlacementView : View {
-    @EnvironmentObject var placementSettings : PlaceMentSetting
+    @EnvironmentObject var placementSettings : PlacementSettings
     var body: some View{
         
         HStack{

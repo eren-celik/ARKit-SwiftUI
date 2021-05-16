@@ -28,7 +28,7 @@ struct BrowseView : View {
     }
 }
 struct RecentsGrid : View {
-    @EnvironmentObject var placementSettings : PlaceMentSetting
+    @EnvironmentObject var placementSettings : PlacementSettings
     @Binding var showBrowse : Bool
     
     var body: some View{
@@ -67,7 +67,7 @@ struct ModelsByCategoryGrid : View{
 }
 
 struct HorizontalGrid : View {
-    @EnvironmentObject var placementSetting : PlaceMentSetting
+    @EnvironmentObject var placementSetting : PlacementSettings
     @Binding var showBrowse : Bool
     var title : String
     var items : [Model]

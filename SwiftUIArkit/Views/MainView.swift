@@ -10,15 +10,15 @@ import RealityKit
 import SceneKit
 
 struct MainView : View {
-    @EnvironmentObject var placementSettings : PlaceMentSetting
+    @EnvironmentObject var placementSettings : PlacementSettings
     @State private var isControlsVisible : Bool = true
     @State private var showBrowse : Bool = false
-    
+    @State private var showSettings : Bool = false
     var body: some View {
         ZStack(alignment: .bottom) {
             ARViewContainer()
             if self.placementSettings.selectedModel == nil {
-                ControlView(isControlsVisible: $isControlsVisible, showBrowse: $showBrowse)
+                ControlView(isControlsVisible: $isControlsVisible, showBrowse: $showBrowse , showSettings: $showSettings)
             }else{
                 PlacementView()
             }
@@ -29,10 +29,11 @@ struct MainView : View {
 }
 
 struct ARViewContainer: UIViewRepresentable {
-    @EnvironmentObject var placementSetting : PlaceMentSetting
+    @EnvironmentObject var placementSetting : PlacementSettings
+    @EnvironmentObject var sessionSetting   : SessionSettings
     
     func makeUIView(context: Context) -> CustomArView {
-        let arView = CustomArView(frame: .zero)
+        let arView = CustomArView(frame: .zero, sessionSettings: sessionSetting)
         self.placementSetting.sceneObserver = arView.scene.subscribe(to: SceneEvents.Update.self, { event in
             self.updateScene(for: arView)
         })
@@ -64,6 +65,6 @@ struct ARViewContainer: UIViewRepresentable {
 struct ContentView_Previews : PreviewProvider {
     static var previews: some View {
         MainView()
-            .environmentObject(PlaceMentSetting())
+            .environmentObject(PlacementSettings())
     }
 }
