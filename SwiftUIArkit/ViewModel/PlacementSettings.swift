@@ -23,8 +23,11 @@ class PlaceMentSetting : ObservableObject{
                 return
             }
             print("Setting confirmed Model \(model.name)")
+            self.recentlyPlaced.append(model)
         }
     }
+    //This property retains a record of placed model in the scene. The last element in the array is the most recently placed model
+    @Published var recentlyPlaced : [Model] = []
     
     var sceneObserver : Cancellable?
     

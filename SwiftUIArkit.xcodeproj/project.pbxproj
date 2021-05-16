@@ -13,6 +13,7 @@
 		102419DF26433FD400DCFD6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 102419DE26433FD400DCFD6F /* Assets.xcassets */; };
 		102419E226433FD400DCFD6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 102419E126433FD400DCFD6F /* Preview Assets.xcassets */; };
 		10339F54264350BF00A84D5E /* model1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 10339F53264350BF00A84D5E /* model1.usdz */; };
+		10E56D392651826B00884D11 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E56D382651826B00884D11 /* View+Extension.swift */; };
 		10E5D19C2646CB520062C6AA /* flower_tulip.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 10E5D1952646CB4F0062C6AA /* flower_tulip.usdz */; };
 		10E5D19D2646CB520062C6AA /* gramophone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 10E5D1962646CB500062C6AA /* gramophone.usdz */; };
 		10E5D19E2646CB520062C6AA /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 10E5D1972646CB500062C6AA /* tv_retro.usdz */; };
@@ -39,6 +40,7 @@
 		102419E126433FD400DCFD6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		102419E326433FD400DCFD6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10339F53264350BF00A84D5E /* model1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = model1.usdz; sourceTree = "<group>"; };
+		10E56D382651826B00884D11 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		10E5D1952646CB4F0062C6AA /* flower_tulip.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = flower_tulip.usdz; sourceTree = "<group>"; };
 		10E5D1962646CB500062C6AA /* gramophone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = gramophone.usdz; sourceTree = "<group>"; };
 		10E5D1972646CB500062C6AA /* tv_retro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tv_retro.usdz; sourceTree = "<group>"; };
@@ -86,6 +88,8 @@
 		102419D726433FD000DCFD6F /* SwiftUIArkit */ = {
 			isa = PBXGroup;
 			children = (
+				10E56D382651826B00884D11 /* View+Extension.swift */,
+				10E56D372651812D00884D11 /* ViewModel */,
 				10E5D1A92646D6CC0062C6AA /* Views */,
 				10E5D1942646CB280062C6AA /* Models */,
 				102419D826433FD000DCFD6F /* AppDelegate.swift */,
@@ -93,7 +97,6 @@
 				102419E326433FD400DCFD6F /* Info.plist */,
 				102419E026433FD400DCFD6F /* Preview Content */,
 				10E5D1A52646CF150062C6AA /* LaunchScreen.storyboard */,
-				10E5D1AC2646E2FC0062C6AA /* PlacementSettings.swift */,
 			);
 			path = SwiftUIArkit;
 			sourceTree = "<group>";
@@ -104,6 +107,14 @@
 				102419E126433FD400DCFD6F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		10E56D372651812D00884D11 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				10E5D1AC2646E2FC0062C6AA /* PlacementSettings.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		10E5D1942646CB280062C6AA /* Models */ = {
@@ -221,6 +232,7 @@
 			files = (
 				10E5D1A42646CDF70062C6AA /* ControlView.swift in Sources */,
 				10E5D1AD2646E2FC0062C6AA /* PlacementSettings.swift in Sources */,
+				10E56D392651826B00884D11 /* View+Extension.swift in Sources */,
 				10E5D1AF2646E45F0062C6AA /* PlacementView.swift in Sources */,
 				102419DB26433FD000DCFD6F /* MainView.swift in Sources */,
 				10E5D1B42646E6FB0062C6AA /* CustomARView.swift in Sources */,

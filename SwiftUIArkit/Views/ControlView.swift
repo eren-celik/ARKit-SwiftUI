@@ -50,18 +50,17 @@ struct ControlVisibilityToggleButton : View {
         }
         .padding(.top,45)
         .padding(.trailing,25)
-       
+        
     }
 }
 
 struct ControlButtonBar : View {
+    @EnvironmentObject var placementSettings : PlaceMentSetting
     @Binding var showBrowse : Bool
     var body: some View{
         HStack{
             
-            ControlButton(systemIconName: "clock.fill") {
-                print("browse button pressed")
-            }
+            MostRecentltPlacedButton().self.hidden(self.placementSettings.recentlyPlaced.isEmpty)
             
             Spacer()
             
@@ -97,5 +96,24 @@ struct ControlButton: View {
                 .buttonStyle(PlainButtonStyle())
         })
         .frame(width: 50, height: 50)
+    }
+}
+
+struct MostRecentltPlacedButton : View {
+    @EnvironmentObject var placementSettings : PlaceMentSetting
+    var body: some View{
+        Button {
+            print("most recenlt pressed")
+            self.placementSettings.selectedModel = self.placementSettings.recentlyPlaced.last
+        } label: {
+            if let mostRecentltyModel = self.placementSettings.recentlyPlaced.last{
+                Text(mostRecentltyModel.name)
+                //.aspectRatio(1/1 )
+            }
+        }
+        .frame(width: 50, height: 50)
+        .background(Color.white)
+        .cornerRadius(8.0)
+        
     }
 }
